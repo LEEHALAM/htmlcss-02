@@ -21,7 +21,7 @@ body {
 .wrapper {
   background-color: #ddd;
   width: 800px;
-  margin: 32px auto;
+  margin: 5px auto;
 }
 
 .header {
@@ -64,8 +64,15 @@ body {
 }
 
 .section li {
-  border-left: 5px solid #ddd;
-  padding: 6px 10px 4px;
+  background-image: url(images/icon-jack2.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 10px 43px 8px;
+}
+
+.section li:hover {
+  color: orangered;
+  background-image: url(images/icon-jack.png);
 }
 
 .footer {
