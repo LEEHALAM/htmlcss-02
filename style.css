@@ -58,6 +58,10 @@ body {
   padding: 20px;
 }
 
+.skills {
+  background-image: url(images/icon-skills.png);
+}
+
 .section h2 {
   color: orangered;
   margin-bottom: 20px;
